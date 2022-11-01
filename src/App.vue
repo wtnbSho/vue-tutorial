@@ -5,28 +5,28 @@ import MainTodo from './components/MainTodo.vue';
 </script>
 
 <template>
-  <div class="wrap">
-    <TheHeader />
-    <main class="main"><MainTodo /></main>
-    <TheFooter />
-  </div>
+	<div class="wrap">
+		<TheHeader />
+		<main class="main"><MainTodo /></main>
+		<TheFooter />
+	</div>
 </template>
 
 <style>
 @import 'assets/css/destyle.css';
 
 .wrap {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  min-height: 100vh;
-  width: 370px;
-  margin: 0 auto;
-  font-family: sans-serif;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	min-height: 100vh;
+	width: 370px;
+	margin: 0 auto;
+	font-family: sans-serif;
 }
 
 .main {
-  flex: 1;
-  width: 100%;
+	flex: 1;
+	width: 100%;
 }
 </style>
